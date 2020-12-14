@@ -16,7 +16,7 @@ export const App = () => {
         <Prisma code={code2} language="js" plugins={["line-numbers"]} />
       </div>
       <div style={{ padding: "3px", borderRadius: "2.89px" }}>
-        <Prisma code={code3} language="js" plugins={["line-numbers"]} />
+        <Prisma code={code3} language="css" plugins={["line-numbers"]} />
       </div>
     </div>
   );
