@@ -21,10 +21,13 @@ export const Prisma = ({ code, plugins, language }) => {
     flexDirection: "row",
     justifyContent: "space-around"
   };
-
+  const styleObj2 = {
+    padding: "2px",
+    borderRadius: "12.878px"
+  };
   return (
     <div style={styleObj}>
-      <pre className={!plugins ? "" : plugins.join(" ")}>
+      <pre style={styleObj2} className={!plugins ? "" : plugins.join(" ")}>
         <code ref={ref} className={`language-${language}`}>
           {code}
         </code>
