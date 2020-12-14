@@ -1,2 +1,2 @@
-# codeCarbonHooks
+# snippets
 Created with CodeSandbox
